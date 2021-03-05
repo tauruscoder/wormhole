@@ -3,8 +3,8 @@
   "description": "PHP framework based on swoole",
   "type": "project",
   "keywords": [
-    "fastadmin",
-    "thinkphp"
+    "wormhole",
+    "swoole"
   ],
   "homepage": "http://www.chongdongkeji.cn/",
   "license": "proprietary",
@@ -15,8 +15,17 @@
     }
   ],
   "require": {
-    "php": ">=7.0.0",
+    "php": ">=7.3.*",
     "phpmailer/phpmailer": "~6.1.6",
     "overtrue/pinyin": "~3.0"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
   }
 }
